@@ -28,3 +28,6 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+**/Sandbox.unity
+**/Sandbox.unity.meta
