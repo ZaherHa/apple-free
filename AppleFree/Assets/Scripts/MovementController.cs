@@ -22,5 +22,6 @@ public class MovementController : MonoBehaviour {
         Vector3 movementVector = new Vector3(h, 0, v);
 
         body.AddForce(Time.deltaTime * speed * movementVector);
+        body.AddTorque(Time.deltaTime * speed * v, 0, -Time.deltaTime * speed * h);
     }
 }
